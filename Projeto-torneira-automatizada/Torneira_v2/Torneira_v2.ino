@@ -52,8 +52,8 @@ void loop(){
     Serial.println(SomaIntervalo);
     delay(500);
    
-    Serial.print(", CM: ");
-    Serial.println(cmMsec);
+    //Serial.print(", CM: ");
+    //Serial.println(cmMsec);
 
     if(SomaIntervalo > 0){
        digitalWrite(verde,HIGH);
